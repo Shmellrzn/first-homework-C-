@@ -22,7 +22,7 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 //Задача 2: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
 
-Console.WriteLine ("Введите 3 числа: ");
+/*Console.WriteLine ("Введите 3 числа: ");
 
 int num1 = Convert.ToInt32(Console.ReadLine());
 int num2 = Convert.ToInt32(Console.ReadLine());
@@ -38,7 +38,7 @@ if (num3 > num2)
 max = num3;
 
 Console.WriteLine($"Твой максимум - " + max + ", Поздравляю!");
-
+*/
 
 
 //Задача 3:  Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)
