@@ -20,6 +20,17 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 //Задача 2: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
 
+Console.WriteLine ("Введите 3 числа: ");
+
+int num1 = Convert.ToInt32(Console.ReadLine());
+int num2 = Convert.ToInt32(Console.ReadLine());
+int num3 = Convert.ToInt32(Console.ReadLine());
+
+int max = num1;
+if (num2 > num1)
+Console.WriteLine("Маскимальное число " + num2);
+if (num3 > num2)
+Console.WriteLine("Маскимальное число " + num3);
 
 
 
