@@ -8,9 +8,12 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
     if (num1>num2)
     {
-    Console.Write("Ваше число: " + num1);
+    Console.Write(num1 + " больше " + num2 + " невероятно!");
     }
     else
     {
-    Console.Write("Ваше число: " + num2);
+    Console.Write(num2 + " больше " + num1 + " потрясающе!");
     }
+
+
+
